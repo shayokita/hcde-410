@@ -12,4 +12,4 @@
 - The counter records north vs. south separately. Are mornings mostly one direction and evenings the other? What would that tell you about who's using the trail and where they're heading?
 
 ## How to re-run
-Open `A1.ipynb` and run all cells (needs `requests`, `pandas`, `matplotlib`).
+Open `A1.ipynb` and run all cells. The notebook (needs `requests`, `pandas`, `matplotlib`).
