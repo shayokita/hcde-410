@@ -2,7 +2,7 @@
 
 **Dataset:** Burke-Gilman Trail counter north of NE 70th St
 **Source:** https://data.seattle.gov/Transportation/Burke-Gilman-Trail-north-of-NE-70th-St-Bicycle-Cou/2z5v-ecg8/about_data
-**Pulled** 2026-10-16
+**Pulled:** 2026-10-16
 **License / terms of use:** Public Domain
 
 ## Questions I asked
