@@ -1,1 +1,142 @@
-run,prompt,model,version,timestamp,output,verified,notes
+﻿run,prompt,model,version,timestamp,output,verified,notes
+1,"I conducted a usability study and recorded the following task completion times in seconds: 25, 24, 24, 30, 28, 120, N/A, and 30 sec.
+ Clean the data, calculate the mean and median completion times, and explain which measure better represents the typical participant's completion time. Show your steps.",ChatGPT,GPT-6,3:32 PM,"
+Step 1: Clean the data
+Original data: 25, 24, 24, 30, 28, 120, N/A, 30 seconds.
+Remove N/A because it is a missing value.
+Keep 120 seconds because it is a valid recorded time, even though it appears to be an outlier.
+Sort the remaining values from smallest to largest.
+Cleaned data: 24, 24, 25, 28, 30, 30, 120
+There are 7 valid observations.
+Step 2: Calculate the mean
+The mean is calculated by adding all the completion times and dividing by the number of valid observations.
+Mean=(24+24+25+28+30+30+120)/7
+Mean=40.14 seconds
+Step 3: Calculate the median
+The median is the middle value when the data is sorted.
+24, 24, 25, 28, 30, 30, 120
+Since there are 7 observations, the median is the 4th value.
+Media: 28
+Step 4: Compare the results
+Step 5: Which measure is better?
+The median (28 seconds) better represents the typical participant's completion time.
+Most participants completed the task in 24–30 seconds, but one participant took 120 seconds. This unusually high value pulls the mean up to 40.14 seconds, making it less representative of most participants.
+The median is less affected by outliers, so it provides a more accurate picture of how long a typical participant took.
+Final Answer
+-Mean: 40.14 seconds
+-Median: 28 seconds
+-Better measure: Median, because the 120-second outlier skews the mean.
+In a usability study, the 120-second completion time should still be investigated because it could indicate that a participant encountered a usability problem.
+
+
+
+
+
+
+",Yes,Correct calculations and correctly said the median was more representative because of the outlier number.
+2,"I conducted a usability study and recorded the following task completion times in seconds: 25, 24, 24, 30, 28, 120, N/A, and 30 sec.
+ Clean the data, calculate the mean and median completion times, and explain which measure better represents the typical participant's completion time. Show your steps.",ChatGPT,GPT-6,3:33 PM,"
+Step 1: Clean the data
+Original data: 25, 24, 24, 30, 28, 120, N/A, 30 seconds.
+Remove N/A because it represents a missing value.Keep 120 seconds because it is a recorded completion time, even though it appears to be an outlier.Sort the remaining values from smallest to largest.
+Cleaned data: 24, 24, 25, 28, 30, 30, 120
+There are 7 valid observations.
+Step 2: Calculate the mean
+The mean is the sum of all valid completion times divided by the number of valid observations.
+Mean=(24+24+25+28+30+30+120)/7
+Mean=40.14 seconds
+Step 3: Calculate the median
+The median is the middle value when the data is sorted.
+24, 24, 25, 28, 30, 30, 120
+Since there are 7 observations, the median is the 4th value.
+Median: 28
+Step 4: Compare the results
+Measure	Completion time
+Mean	40.14 seconds
+Median	28 seconds
+Step 5: Which measure better represents the typical participant?
+The median (28 seconds) better represents the typical participant's completion time.
+Most participants completed the task in 24–30 seconds, but one participant took 120 seconds. This unusually high value pulls the mean up to 40.14 seconds, making it less representative of most participants.
+The median is less affected by outliers, making it a better measure of the typical completion time.
+Final Answer
+The mean completion time was 40.14 seconds, and the median was 28 seconds. The median better represents the typical participant because the 120-second outlier increases the mean significantly. However, the 120-second result should still be investigated because it may indicate a usability issue that caused one participant to take much longer than the others.
+
+
+
+
+
+
+
+",Yes,"Gave the exact same correct calculations and conclusions
+ as Run 1 but it gave more explanation."
+3,"I conducted a usability study and recorded the following task completion times in seconds: 25, 24, 24, 30, 28, 120, N/A, and 30 sec.
+ Clean the data, calculate the mean and median completion times, and explain which measure better represents the typical participant's completion time. Show your steps.",ChatGPT,GPT-6,3:35PM,"
+Step 1: Clean the Data
+Original data: 25, 24, 24, 30, 28, 120, N/A, 30 seconds.
+To clean the data:
+Remove N/A because it represents a missing value.Keep 120 seconds because it is a recorded completion time, even though it appears to be an outlier.Sort the remaining values in ascending order.
+Cleaned data: 24, 24, 25, 28, 30, 30, 120
+There are 7 valid observations.
+Step 2: Calculate the Mean
+The mean is calculated by adding all valid completion times and dividing by the number of observations.
+Mean=(24+24+25+28+30+30+120)/7
+Mean: 40.14 seconds
+Step 3: Calculate the Median
+The median is the middle value when the data is sorted.
+24, 24, 25, 28, 30, 30, 120
+Since there are 7 observations, the median is the 4th value.
+Median: 28 Seconds
+Step 4: Compare the Results
+Measure	Completion Time
+Mean	40.14 seconds
+Median	28 seconds
+Step 5: Which Measure Better Represents the Typical Participant?
+The median (28 seconds) better represents the typical participant's completion time.
+Most participants completed the task in 24–30 seconds, but one participant took 120 seconds. This unusually high value pulls the mean up to 40.14 seconds, making it less representative of most participants.
+The median is less affected by outliers, so it provides a more accurate representation of the typical completion time.
+Final Answer
+The mean completion time was 40.14 seconds, while the median was 28 seconds. The median is the better measure because the 120-second outlier significantly increases the mean. However, the 120-second result should still be investigated because it could indicate a usability issue that caused one participant to take much longer than the others.
+Note: If N/A represents a participant who could not complete the task, that should be reported separately as a task failure rather than simply ignored.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",Yes,"Gave the exact same correct calculations and conclusions
+ as Run 1 and Run 2 but it was worded differently."
+4,"I conducted a usability study and recorded the following task completion times in seconds: 25, 24, 24, 30, 28, 120, N/A, and 30 sec.
+ Clean the data, calculate the mean and median completion times, and explain which measure better represents the typical participant's completion time. Show your steps.",Claude,Sonnet 5.5,3:40PM,"
+Step 1: Clean the data
+Raw values: 25, 24, 24, 30, 28, 120, N/A, 30
+N/A isn’t a measurement, so it has to be excluded. It’s a missing value, not a zero. Treating it as 0 would drag the mean down artificially. (Ideally you’d note why it’s missing: did the participant abandon the task, or did the timer fail? A non-completion is itself a usability finding.)
+120 is a suspicious outlier, but I’m keeping it for now. It’s not an impossible value, and it may reflect a real participant who struggled. It should only be removed if you have a documented reason (e.g., a recording error or the participant was interrupted). I’ll show the stats both ways.
+Cleaned data (n = 7), sorted: 24, 24, 25, 28, 30, 30, 120
+Step 2: Mean
+Sum = 24 + 24 + 25 + 28 + 30 + 30 + 120 = 281
+Mean = 281 ÷ 7 = 40.14 seconds
+Step 3: Median
+With 7 values, the median is the 4th value in sorted order: 28 seconds
+Step 4: Comparison with the outlier excluded (for reference)
+Data (n = 6): 24, 24, 25, 28, 30, 30
+Mean = 161 ÷ 6 = 26.83 seconds
+Median = (25 + 28) ÷ 2 = 26.5 seconds
+Step 5: Which measure is more representative?
+The median (28 seconds) better represents the typical participant.
+Six of the seven participants finished between 24 and 30 seconds. The mean of 40.14 seconds is higher than every one of those six, so it doesn’t describe any actual typical participant.
+A single value (120) pulled the mean up by about 13 seconds. The median barely moves when the outlier is removed (28 → 26.5), while the mean shifts dramatically (40.14 → 26.83). That stability is what makes the median robust.
+With a small sample and a right-skewed distribution (a few slow completions stretching the tail), the median is the standard choice. Task times in usability research are commonly skewed this way, which is why medians (or geometric means) are often recommended.
+Recommendation for reporting: Report the median (28 s) as the typical time, and mention the 120-second case separately as a participant who struggled. Also flag the N/A, since it may represent a failed or abandoned task. With only 7–8 participants, treat all of these numbers as rough indicators rather than precise estimates.
+
+
+",Yes,The numbers were the same as the first 3 runs but this response was a lot more detailed with an explanation of how the outlier affects the results.
