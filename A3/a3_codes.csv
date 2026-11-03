@@ -1,1 +1,8 @@
-observation,theme
+﻿observation,theme
+[0:00] Copied and pastes the same prompt from Question 2,Prompt Reuse
+[0:00] Read through ChatGPT's response and steps,Trust in AI Explanations
+[0:30] Initially trusted the reponse because it showed steps but decide to focus on the mean and median answers.,Over trust in AI
+[1:20] The participant decided to verify the response and calculated the mean on their phone calculator.,Verification
+[1:50] After reading the response and doing the calculation they noticed that the 120 seconds was a lot higher than all the other times. ,Recognized outlier
+"[2:10] They agreed with ChatGPT that the median was a better measure than the mean. They said they liked how 
+ChatGPT showed the steps and gave explanations as to why the median was the answer they chose.",Trust in AI Explanations
